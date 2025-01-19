@@ -1,0 +1,1 @@
+ C:\\ngoding\\vivo3\\.dart_tool\\flutter_build\\7d92058f47f2aba93498529ce7f72ad0\\native_assets.yaml: 

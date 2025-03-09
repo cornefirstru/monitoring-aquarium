@@ -34,7 +34,8 @@ class MonitoringCard extends StatelessWidget {
                 padding: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: color.withOpacity(0.2), // Transparent background for the icon
+                  color: color
+                      .withOpacity(0.2), // Transparent background for the icon
                 ),
                 child: Icon(icon, size: 28, color: color), // Smaller icon size
               ),

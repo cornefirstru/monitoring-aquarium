@@ -4,7 +4,7 @@ import 'detail_page.dart'; // Import DetailPage
 import 'monitoring_card.dart'; // Import MonitoringCard
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_database/firebase_database.dart';
-import 'firebase.options.dart';
+import 'firebase_options.dart';
 
 class MonitoringPage extends StatefulWidget {
   const MonitoringPage({super.key});

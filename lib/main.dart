@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'firebase_options.dart';
 import 'monitoring_page.dart';
 import 'graph_page.dart';
+import 'feeding_page.dart'; // Tambahkan ini
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -44,6 +45,7 @@ class _HomePageState extends State<HomePage> {
   final List<Widget> _pages = [
     const MonitoringPage(),
     const GraphPage(), // Pastikan ini tidak butuh parameter tambahan
+    const FeedingPage(), // Tambahkan halaman Pakan di sini
   ];
 
   @override
@@ -67,7 +69,7 @@ class _HomePageState extends State<HomePage> {
             label: 'Grafik',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.bar_chart),
+            icon: Icon(Icons.food_bank), // Ganti icon jadi pakan
             label: 'Pakan',
           ),
         ],

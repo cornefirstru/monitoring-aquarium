@@ -134,6 +134,12 @@
       "languageVersion": "3.2"
     },
     {
+      "name": "intl",
+      "rootUri": "file:///C:/Users/MSI/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.18.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "leak_tracker",
       "rootUri": "file:///C:/Users/MSI/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker-10.0.7",
       "packageUri": "lib/",
@@ -326,7 +332,7 @@
       "languageVersion": "3.6"
     }
   ],
-  "generated": "2025-03-09T11:56:48.167873Z",
+  "generated": "2025-03-13T08:54:21.261557Z",
   "generator": "pub",
   "generatorVersion": "3.6.0",
   "flutterRoot": "file:///C:/ngoding/flutter",
